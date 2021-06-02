@@ -5,6 +5,9 @@ const app = express()
 
 const PORT = 5000
 
+require('./models/user')
+require('./models/post')
+
 mongoose.connect(MONGOURI, 
     {useNewUrlParser: true, 
      useUnifiedTopology: true}
@@ -18,7 +21,7 @@ mongoose.connection.on('error', () => {
     console.log('We are NOT connected')
 })
 
-
+app.use(require('./routes/authen.js'))
 
 
 app.listen(PORT, () => {
