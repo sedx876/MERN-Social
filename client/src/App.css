@@ -2,11 +2,11 @@
   background-image:
     linear-gradient(
       to right, 
-      red, 
-      orange,
-      yellow, 
-      green,
-      blue,
+      #ff6698, 
+      #ffb366,
+      #ffff66, 
+      #98ff66,
+      #6698ff,
       purple
     );
 }

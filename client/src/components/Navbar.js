@@ -1,14 +1,15 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 const Navbar = () => {
     return (
 			<nav>
     		<div className="nav-wrapper gradient">
-      		<a href="#" className="brand-logo left">QueenTeens</a>
+      		<Link to="/" className="brand-logo left">QueenTeens</Link>
       		<ul id="nav-mobile" className="right">
-        		<li><a href="sass.html">Sass</a></li>
-        		<li><a href="badges.html">Components</a></li>
-        		<li><a href="collapsible.html">JavaScript</a></li>
+        		<li><Link to="/login">LogIn</Link></li>
+        		<li><Link to="/signup">SignUp</Link></li>
+        		<li><Link to="/profile">Profile</Link></li>
       		</ul>
     		</div>
   		</nav>
