@@ -7,6 +7,7 @@ const PORT = 5000
 
 require('./models/user')
 require('./models/post')
+app.use(express.json())
 
 mongoose.connect(MONGOURI, 
     {useNewUrlParser: true, 
@@ -22,6 +23,7 @@ mongoose.connection.on('error', () => {
 })
 
 app.use(require('./routes/authen.js'))
+
 
 
 app.listen(PORT, () => {
