@@ -46,3 +46,7 @@
     margin: 25px auto;
     height: max-content;
 }
+
+.black-text a{
+  color: black;
+ }

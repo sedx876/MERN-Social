@@ -3,7 +3,7 @@ import React from 'react'
 const Login = () => {
 	return (
 		<div className='mycard'>
-			<div class="card auth-card gradient">
+			<div class="card auth-card  pink lighten-1">
         <h2>QueenTeens</h2>
 
 			
@@ -16,7 +16,7 @@ const Login = () => {
 				className='center'/>
 
 				<button 
-					className="btn waves-effect waves-light pink lighten-2 black-text center" 
+					className="btn waves-effect waves-light pink lighten-4 black-text center" 
 					type="submit" 
 					name="action">
 						LOGIN
