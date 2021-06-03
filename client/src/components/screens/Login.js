@@ -1,4 +1,6 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
+
 
 const Login = () => {
 	return (
@@ -22,6 +24,10 @@ const Login = () => {
 						LOGIN
             <i className="material-icons right">send</i>
 				</button>
+
+				<h6 className='black-text center'>
+					<Link to='/signup'>Don't Have an Account?</Link>
+				</h6>
       </div>
 		</div>
 	)
