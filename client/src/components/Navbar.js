@@ -5,11 +5,11 @@ const Navbar = () => {
     return (
 			<nav>
     		<div className="nav-wrapper gradient">
-      		<Link to="/" className="brand-logo left">QueenTeens</Link>
+      		<Link to="/" className="brand-logo left black-text">QueenTeens</Link>
       		<ul id="nav-mobile" className="right">
-        		<li><Link to="/login">LogIn</Link></li>
-        		<li><Link to="/signup">SignUp</Link></li>
-        		<li><Link to="/profile">Profile</Link></li>
+        		<li><Link to="/login" className='black-text'>LogIn</Link></li>
+        		<li><Link to="/signup" className='black-text'>SignUp</Link></li>
+        		<li><Link to="/profile" className='black-text'>Profile</Link></li>
       		</ul>
     		</div>
   		</nav>
