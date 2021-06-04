@@ -1,5 +1,6 @@
 import './App.css'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 import Home from './components/screens/Home'
 import Profile from './components/screens/Profile'
 import Login from './components/screens/Login'
@@ -19,6 +20,7 @@ function App() {
         <Route path='/signup' component={Signup}/>
         <Route path='/createpost' component={Createpost}/>
         <Route path='/TOS' component={TermsOfService}/>
+        <Footer/>
       </Router>
     </div>
   );
