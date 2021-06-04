@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const PORT = 5000
 const {MONGOURI} = require("./valuekeys.js")
 
-//dDXxLk5YEuyH2UFB - database access password
+
 
 
 mongoose.connect(MONGOURI,{
