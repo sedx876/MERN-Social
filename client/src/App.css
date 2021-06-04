@@ -13,6 +13,17 @@
 
 body{
   background-color: #fce4ec;
+  
+}
+
+
+.page-footer{
+  position:sticky;
+   left:0px;
+   bottom:0px;
+   z-index:1;
+   width:100%;
+   margin: 2px;
 }
 
 .b{
