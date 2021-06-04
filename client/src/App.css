@@ -11,6 +11,10 @@
     );
 }
 
+body{
+  background-color: #fce4ec;
+}
+
 .b{
   margin-left: 5%;
 }

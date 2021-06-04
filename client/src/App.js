@@ -5,6 +5,7 @@ import Profile from './components/screens/Profile'
 import Login from './components/screens/Login'
 import Signup from './components/screens/Signup'
 import Createpost from './components/screens/Createpost'
+import TermsOfService from './components/screens/TermsOfService'
 import { BrowserRouter as Router, Route} from 'react-router-dom'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path='/login' component={Login}/>
         <Route path='/signup' component={Signup}/>
         <Route path='/createpost' component={Createpost}/>
+        <Route path='/TOS' component={TermsOfService}/>
       </Router>
     </div>
   );
